@@ -18,6 +18,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 * Capacidad de la programadora de introducir cambios en el programa desarrollado
 * Se acredita conocimiento y puesta en práctica de principios y buenas prácticas de programación orientada a objetos
 * Saber corregir bugs en sus programas utilizando el depurador de Visual Studio Code
+* La arquitectura de la aplicación ha de ser conforme al patrón MVC
 * Deben usarse estructuras de datos adecuadas para representar los diferentes elementos que intervienen en el problema
 * Ser capaz de desarrollar programas simples en TypeScript en el entorno Linux de la VM de la asignatura usando
   `ts-node`
@@ -46,11 +47,7 @@ y/o
 Ponga en práctica en su desarrollo los fundamentos, principios y buenas prácticas de la OOP así como los
 conocimientos que haya adquirido en el uso de patrones de diseño.
 
-* Configure adecuadamente ficheros `package.json` y `tsconfig.json` en el directorio raíz de su proyecto que
-permitan gestionar las dependencias del mismo.
-
-* Previo a la implementación de cada clase, diseñe y desarrolle un conjunto de tests para probar el correcto
-funcionamiento de todos los métodos públicos.
+* Aloje ficheros de configuración adecuados en el directorio raíz de su proyecto, de modo que se contemplen todas las dependencias del mismo.
 
 * Utilice un fichero distinto para el código de cada una de las clases que intervienen en su programa.
 
@@ -59,19 +56,17 @@ funcionamiento de todos los métodos públicos.
 * Configure para la práctica una página web que sirva de índice para mostrar la documentación generada por
 Typedoc para esta práctica.
 
-* Todo el código estará ubicado en el directorio `src` del proyecto. Use subdirectorios de éste si le resulta conveniente.
+* Todo el código estará ubicado en el directorio `src/home-work` del proyecto. Use subdirectorios de éste si le resulta conveniente.
 
 * Antes de comenzar a desarrollar su programa dedique el tiempo necesario a diseñar la estructura de clases que
 utilizará en su programa, así como las relaciones existentes entre las mismas.
-Desarrolle un diagrama UML para esas clases, que ha de añadir a la página índice de esta práctica.
-Asegúrese de la corrección de su diagrama.
-Una aplicación para la realización de diagramas UML como
-[Mermaid](https://mermaid.live/edit#pako:eNptkU1PwzAMhv9KlBOI9Q9UuyC2SRx22m2KhNzEdFbzAfnQBKP_nbSlYXT4ZD-OX72xL1w6hbzmUkMIG4LWgxGW5Xi0ZECz9VdVsU2S3S3dUTjd0iM2Hv7gmj2QjQxaXOJD9GRb1qJV6K-bw0jYg8np3f2iYSDiDEfbo73LBFgRbRC6J6edL41wJjMP5vI9gezmur_WGz5W9KrBe6BPfLY7xFiwBLuF-O_8uIJfQ41zmlF4OZNWBfpkF7Nz8BU36A2QyncZVQSPJzQoeJ1Tha-QdBRc2D4_TW8q72OrKDrP6-gTrjik6A4fVs719ObnuhPsvwES3pny)
-puede resultarle útil para esta finalidad, aunque puede usar cualquier otro programa que conozca, 
-o simplemente papel y bolígrafo.
+Utilice
+[LucidChart](https://www.lucidchart.com/pages/es)
+o una aplicación similar para realizar un diagrama UML para esas clases, que ha de añadir a la página índice de esta
+práctica.
+Asegúrese de la corrección de su diagrama UML.
 
-* Realice, como siempre, un diseño incremental del programa comprobando cada una de las funcionalidades que añade, siguiendo un
-desarrollo TDD.
+* Realice, como siempre, un diseño incremental del programa comprobando cada una de las funcionalidades que añade, siguiendo una aproximación TDD.
 
 * Cuando finalice su desarrollo **modifique el fichero `README.md`** de su proyecto incluyendo la información
 habitual en cualquier proyecto público en GitHub.
@@ -95,21 +90,13 @@ y se ha popularizado asimismo para el diseño de aplicaciones web.
 
 Es fácil encontrar en la web información sobre el patrón MVC, así como ejemplos de implementación del
 mismo en diferentes lenguajes.
-Los siguientes son elementos que puede utilizar para iniciarse en el estudio del patrón MVC:
-* [Estas transparencias](https://campusingenieriaytecnologia2324.ull.es/pluginfile.php/7746/mod_resource/content/2/FAlmeida-Transparencias-MVC2020.pdf)
-del profesor F. Almeida pueden ser un buen punto de toma de contacto con MVC.
-* En [esta otra página](https://www.roseindia.net/tutorial/java/jdbc/javamvcdesignpattern.html)
-puede hallar otra explicación detallada del modelo con una imagen que muestra el papel y las relaciones entre
-los componentes del mismo.
-* El directorio `MVC-ejemplo-java` de este proyecto contiene una aplicación java para un conversor de monedas
-que sigue el patrón MVC.
-* Por último, en el artículo
-[Build a Simple MVC App From Scratch in JavaScript](https://www.taniarascia.com/javascript-mvc-todo-app/)
-se explica con detalle la implementación de una aplicación (lista de tareas) siguiendo el patrón MVC.
-En el repositorio del trabajo expuesto en clase sobre MVC
-[Trabajo MVC](https://github.com/ULL-ESIT-PAI-2023-2024/2023-2024-pai-mvc-pablo-medina-moreno/tree/master/src/todo)
-puede encontrar el código adaptado a TypeScript de la aplicación.
+El 
+[trabajo expuesto en clase](https://github.com/ULL-ESIT-PAI-2024-2025/2024-2025-pai-mvc-2425-pai-mvc-team)
+sobre MVC y las referencias del mismo son un buen punto de partida como toma de contacto con el patrón MVC.
 
+En [esta página](https://www.roseindia.net/tutorial/java/jdbc/javamvcdesignpattern.html)
+puede hallar una explicación detallada del modelo con una imagen que muestra el papel y las relaciones entre
+los componentes del mismo.
 
 ### Las curvas de Lissajous
 Las 
