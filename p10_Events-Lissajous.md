@@ -1,4 +1,4 @@
-# Práctica 10. Programación Gráfica Orientada a Eventos. Curvas de Lissajous
+# Práctica 10. El patrón MVC. Programación Gráfica Orientada a Eventos. Curvas de Lissajous
 ### Factor de ponderación: 10
 
 ### Objetivos
@@ -72,8 +72,8 @@ Asegúrese de la corrección de su diagrama UML.
 habitual en cualquier proyecto público en GitHub.
 Puede usar este
 [README.md](https://github.com/taniarascia/mvc?tab=readme-ov-file)
-como referencia pero incluya además de la información que allí se indica, dos apartados,
-`### Building and Running the code` y `Live Demo`.
+como ejemplo de referencia pero incluya además de la información que allí se indica, dos apartados,
+`Building and Running the code` y `Live Demo`.
 En el primero de ellos ha de explicar en detalle cómo a partir de clonar su repo público ha de compilarse,
 ejecutarse y desplegarse su aplicación, mientras que en el segundo ha de incluir un enlace (véase el apartado *Presentación
 de resultados* de este documento) a la URL pública donde encontrar su aplicación.
@@ -94,9 +94,10 @@ El
 [trabajo expuesto en clase](https://github.com/ULL-ESIT-PAI-2024-2025/2024-2025-pai-mvc-2425-pai-mvc-team)
 sobre MVC y las referencias del mismo son un buen punto de partida como toma de contacto con el patrón MVC.
 
-En [esta página](https://www.roseindia.net/tutorial/java/jdbc/javamvcdesignpattern.html)
-puede hallar una explicación detallada del modelo con una imagen que muestra el papel y las relaciones entre
-los componentes del mismo.
+Asimismo el breve artículo
+[Understanding the MVC Pattern with
+TypeScript](https://medium.com/@alessandro.traversi/understanding-the-mvc-pattern-with-typescript-an-in-depth-analysis-5a5d6f2d61a4)
+puede serles útil inicialmente.
 
 ### Las curvas de Lissajous
 Las 
@@ -203,6 +204,7 @@ que muestre el diagrama UML de las clases que intervienen en su aplicación.
 Haga que todas las páginas de su proyecto ([1], [3], [4]) muestren su nombre y apellidos.
 
 ## Referencias
+* [Understanding the MVC Pattern with TypeScript](https://medium.com/@alessandro.traversi/understanding-the-mvc-pattern-with-typescript-an-in-depth-analysis-5a5d6f2d61a4)
 * [Lissajous Curves](https://academo.org/demos/lissajous-curves/) An interactive demonstration of Lissajous curves
 * [TypeDoc](https://typedoc.org/)
 * [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
