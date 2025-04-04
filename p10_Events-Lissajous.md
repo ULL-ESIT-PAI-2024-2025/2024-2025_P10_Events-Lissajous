@@ -114,11 +114,8 @@ En cambio si el cociente es irracional, la curva será abierta y densa en el cua
 pasa arbitrariamente cerca de cualquier punto contenido en él.
 Consulte 
 [esta
-referencia](https://www.investigacionyciencia.es/revistas/investigacion-y-ciencia/el-nuevo-coronavirus-796/las-figuras-de-lissajous-18475)
-si quiere conocer la historia de estas curvas y
-[estos
-vídeos](https://www.investigacionyciencia.es/blogs/tecnologia/14/posts/las-figuras-de-lissajous-videos-18493)
-si quiere ver las curvas y saber cómo generarlas físicamente.
+referencia](https://www.epsilones.com/paginas/articulos/articulos-005-lissajous.html)
+si quiere conocer la historia de estas curvas.
 
 Utilice
 [esta página](https://academo.org/demos/lissajous-curves/) [2]
