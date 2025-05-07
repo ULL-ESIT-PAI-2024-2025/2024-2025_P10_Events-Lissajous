@@ -158,7 +158,10 @@ El diseño de su página, que ha de imitar el de la de referencia,
 brinda una oportunidad para practicar los elementos HTML y CSS que se han estudiado hasta ahora.
 No se pretende que se utilicen elementos no estudiados hasta esta fecha.
 
-### Presentación de resultados
+### Interfaz gráfica de la aplicación 
+La interfaz gráfica de la aplicación se desarrollará a través de diferentes páginas HTML.
+Haga que en el elemento `title` del código HTML de todas las páginas web de su poroyecto figure su nombre y apellidos.
+
 La visualización de la ejecución del programa se realizará a través de una página web alojada
 en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
 
